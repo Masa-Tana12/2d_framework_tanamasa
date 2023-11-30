@@ -3,14 +3,13 @@ package com.example.demo.controller;
 import java.util.Random;
 
 public class MergeHellController {
-	//import java.util.Random;
 	//結果出力
 	public static void main(String[] args) {
+		kadaiB();
 		int value1 = kadaiB();
-		System.out.println("結果:" + value1);
+		System.out.println(value1 + "が出ました");
 	}
 
-	//メゾット
 	public static int kadaiB() {
 		Random random1 = new Random();
 		return random1.nextInt(100) + 1;

@@ -1,6 +1,7 @@
 package com.example.demo.controller;
 
 import java.util.Random;
+
 public class MergeHellController {
 	public static void main(String[] args) {
 		kadaiA();
@@ -13,9 +14,8 @@ public class MergeHellController {
 		}
 	}
 
-
 	//メゾット
-static void kadaiB() {
+	static void kadaiB() {
 
 		Random random1 = new Random();
 		int value1 = random1.nextInt(100) + 1;

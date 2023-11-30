@@ -4,8 +4,7 @@ import java.util.Random;
 public class MergeHellController {
 	public static void main(String[] args) {
 		kadaiA();
-		int value1 = kadaiB();
-		System.out.println("結果:" + value1);
+		kadaiB();
 	}
 
 	static void kadaiA() {
@@ -16,9 +15,10 @@ public class MergeHellController {
 
 
 	//メゾット
-static int kadaiB() {
+static void kadaiB() {
 
 		Random random1 = new Random();
-		return random1.nextInt(100) + 1;
+		int value1 = random1.nextInt(100) + 1;
+		System.out.println("結果:" + value1);
 	}
 }
